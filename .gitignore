@@ -1,5 +1,6 @@
 # Tool-generated
 .codegraph/
+.reasonix/
 
 # OS files
 Thumbs.db
