@@ -61,6 +61,7 @@ allow = ["Bash(Get-ChildItem -Name 列传/*.md | Measure-Object | Select-Object 
 bash    = "enforce"
 network = true
 
+allow_write = ["C:\\Users\\Public\\qin_check"]
 [statusline]
 # A custom status line: a command whose first stdout line replaces the built-in
 # data row. It receives {"model","contextUsed","contextWindow","cwd"} as JSON on stdin.
